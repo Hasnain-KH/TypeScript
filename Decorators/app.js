@@ -43,25 +43,23 @@ var __runInitializers = (this && this.__runInitializers) || function (thisArg, i
 // }
 // @logger1
 // class person{}
-function information(constructor) {
-    console.log(constructor.name);
+function load(constructor) {
+    console.log("Student class loaded");
 }
-let carName = (() => {
-    let _classDecorators = [information];
+let student = (() => {
+    let _classDecorators = [load];
     let _classDescriptor;
     let _classExtraInitializers = [];
     let _classThis;
-    var carName = class {
+    var student = class {
         static { _classThis = this; }
         static {
             const _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
             __esDecorate(null, _classDescriptor = { value: _classThis }, _classDecorators, { kind: "class", name: _classThis.name, metadata: _metadata }, null, _classExtraInitializers);
-            carName = _classThis = _classDescriptor.value;
+            student = _classThis = _classDescriptor.value;
             if (_metadata) Object.defineProperty(_classThis, Symbol.metadata, { enumerable: true, configurable: true, writable: true, value: _metadata });
             __runInitializers(_classThis, _classExtraInitializers);
         }
-        brand = "Honda";
-        speed = "300km/s";
     };
-    return carName = _classThis;
+    return student = _classThis;
 })();
