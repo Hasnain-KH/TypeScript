@@ -1,2 +1,13 @@
-let naem: string = "Hasnain";
-console.log(naem);
+// let student: [string, number] = ["Hasnain", 20];
+// console.log(student);
+
+
+// let product: [string, number, boolean] = ["Hasnain",  23000, true];
+// console.log(product[0]);
+// console.log(product[1]);
+// console.log(product[2]);
+
+// let user: [string,number,string?] = ["Mobile", 29000,];
+// console.log(user[0]);
+// console.log(user[1]);
+
