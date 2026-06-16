@@ -1,10 +1,9 @@
 "use strict";
 // let student: [string, number] = ["Hasnain", 20];
 // console.log(student);
-// let product: [string, number, boolean] = ["Hasnain",  23000, true];
-// console.log(product[0]);
-// console.log(product[1]);
-// console.log(product[2]);
-let user = ["Mobile", 29000,];
-console.log(user[0]);
-console.log(user[1]);
+let User1 = ["Hasnain", 20];
+console.log(User1[0]);
+console.log(User1[1]);
+let user2 = ["Saqib", 27];
+console.log(user2[0]);
+console.log(user2[1]);
