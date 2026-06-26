@@ -38,5 +38,5 @@ let student1: student = {
 }
 console.log(student1);
 
-console.log(student1.addrss);
+
 
