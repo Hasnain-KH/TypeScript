@@ -13,6 +13,21 @@
 // console.log(admin);
 
 
+interface Admin {
+    name: string,
+    salery: number
+}
+
+
+const admin2: Admin = {
+    name: "Hasnain",
+    salery: 40000
+}
+
+console.log(admin2);
+
+
+
 
 // interface Admin {
 //     name: string,
