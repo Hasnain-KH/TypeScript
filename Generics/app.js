@@ -21,3 +21,8 @@ function getage(age) {
 }
 let studentage = getage([10, 30, 60]);
 console.log(studentage);
+function getstudentName(name) {
+    return name;
+}
+let name1 = getstudentName(["Hasnain", "sufyan"]);
+console.log(name1);
