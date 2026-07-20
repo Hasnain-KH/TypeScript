@@ -9,15 +9,12 @@ let stu1 = {
     rollNumber: 101
 };
 console.log(stu1);
-let teacher1 = {
-    name: "SirHasanin",
-    age: 18,
-    subject: "Physics"
-};
-let teacher2 = {
-    name: "SirAqib",
+let manager1 = {
+    name: "Hasnain",
     age: 20,
-    subject: "Math"
+    salery: 600000,
+    company: "Software House",
+    department: "IT",
+    experience: 0
 };
-console.log(teacher1);
-console.log(teacher2);
+console.log(manager1);

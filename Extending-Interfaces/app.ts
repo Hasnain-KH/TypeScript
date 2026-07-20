@@ -108,21 +108,49 @@ console.log(stu1);
 
 
 
-interface Teacher extends Person {
-    subject: string;
+// interface Teacher extends Person {
+//     subject: string;
+// }
+
+// let teacher1:Teacher = {
+//     name: "SirHasanin",
+//     age: 18,
+//     subject: "Physics"
+// }
+
+
+// let teacher2: Teacher = {
+//     name: "SirAqib",
+//     age: 20,
+//     subject: "Math"
+// }
+// console.log(teacher1);
+// console.log(teacher2);
+
+
+interface Person {
+    name: string, 
+    age : number
 }
 
-let teacher1:Teacher = {
-    name: "SirHasanin",
-    age: 18,
-    subject: "Physics"
+interface Employee extends Person{
+    salery: number,
+    company: string
 }
 
 
-let teacher2: Teacher = {
-    name: "SirAqib",
-    age: 20,
-    subject: "Math"
+interface Manager extends Employee{
+    department: string, 
+    experience: number
 }
-console.log(teacher1);
-console.log(teacher2);
+
+let manager1: Manager = {
+    name: "Hasnain",
+    age: 20, 
+    salery: 600000,
+    company: "Software House",
+    department: "IT",
+    experience: 0
+}
+
+console.log(manager1);
