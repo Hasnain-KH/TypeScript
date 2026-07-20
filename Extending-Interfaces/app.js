@@ -3,23 +3,10 @@
 //     name: string,
 //     email: string
 // }
-// interface Admin extends User{
-//     password: number
-// }
-// let obj: Admin = {
-//     name: "Hasnain",
-//     email: "has@gmail.com",
-//     password: 2323
-// }
-// console.log(obj);
-// let obj1: Admin = {
-//     name: "Ayan ",
-//     email: "Ayan@gmail.com ",
-//     password: 4345
-// }
-// console.log(obj1);
-let obj3 = {
-    name: "Hasnain",
-    email: "Ayan@gmail.com",
-};
-console.log(obj3);
+function myproduct(get) {
+    return get;
+}
+let product1 = ({ name: "laptop", price: 40000, quality: "Nice", instock: true, size: 20 });
+let product2 = ({ name: "PC", price: 900000, quality: "Nice", instock: true, size: 10 });
+console.log(product1);
+console.log(product2);

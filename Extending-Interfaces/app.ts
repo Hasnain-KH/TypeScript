@@ -34,10 +34,10 @@
 // console.log(showdata1);
 
 
-interface User{
-    name: string,
-    email: string
-}
+// interface User{
+//     name: string,
+//     email: string
+// }
 
 // interface Admin extends User{
 //     password: number
@@ -58,9 +58,34 @@ interface User{
 // console.log(obj1);
 
 
-let obj3: User = {
-    name: "Hasnain",
-    email: "Ayan@gmail.com",
+// let obj3: User = {
+//     name: "Hasnain",
+//     email: "Ayan@gmail.com",
+// }
+
+// console.log(obj3);
+
+
+
+interface Stuff {
+    name: string,
+    price: number,
+    quality: string,
+    instock: true
 }
 
-console.log(obj3);
+interface Stuffs extends Stuff{
+    size: string;
+}
+
+function myproduct (get: Stuff){
+    return get;
+}
+
+let product1 = ({name: "laptop", price: 40000, quality: "Nice", instock: true, size: 20});
+let product2 = ({name: "PC", price: 900000, quality: "Nice", instock: true, size: 10});
+console.log(product1);
+console.log(product2);
+
+
+
