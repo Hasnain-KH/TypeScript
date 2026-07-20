@@ -98,15 +98,31 @@ interface Student extends Person{
         rollNumber: number
 }
 
-let stu1 =  ({name: "Hasnain", age: 18, rollNumber: 2929292});
-console.log(stu1 );
+let stu1:Student = {
+    name: "Hasnain",
+    age: 19,
+    rollNumber: 101
+}
+
+console.log(stu1);
+
 
 
 interface Teacher extends Person {
-    subjec: string;
+    subject: string;
 }
 
-let teacher1 = ({name: "SirHasnain", age: 20, subject: "physics"});
-let teacher2 = ({name: "SirAqib", age: 30, subject: "Math"});
+let teacher1:Teacher = {
+    name: "SirHasanin",
+    age: 18,
+    subject: "Physics"
+}
+
+
+let teacher2: Teacher = {
+    name: "SirAqib",
+    age: 20,
+    subject: "Math"
+}
 console.log(teacher1);
 console.log(teacher2);
